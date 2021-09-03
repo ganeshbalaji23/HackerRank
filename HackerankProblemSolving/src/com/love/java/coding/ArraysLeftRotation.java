@@ -17,7 +17,6 @@ public class ArraysLeftRotation {
 		int[] outputArr = rotateArrayLeft(array, noOfRotations);
 		List<Integer> outList = rotateListLeft(inputList, noOfRotations);
 		System.out.println(Arrays.stream(outputArr).boxed().map(Object::toString).collect(Collectors.joining(" ")));
-		
 
 	}
 
